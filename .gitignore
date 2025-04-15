@@ -1,0 +1,37 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo cache
+hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Node-related (if using npm for asset pipelines)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hugo modules (if used)
+/modules/
+
+# Optional: ignore config file overrides
+config*.toml
+config*.yaml
+config*.json
+!config.toml  # keep main config if needed
+
+# Optional: ignore drafts and unused content
+# content/drafts/
+

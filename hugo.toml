@@ -1,83 +1,82 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My website'
-theme = 'typo'
+author = "Ayush Pandey"
+baseURL = "https://deadlockcharlie.com"
+copyright = "© [Ayush Pandey](https://deadlockcharlie.com)."
+theme = "risotto"
+title = "Ayush Pandey"
+# languageCode = "en"
+# DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
-
-[taxonomies]
-tag = 'tags'
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
 
 [params]
-# Meta description
-description = "A Tech Blog"
+customCSS = ["css/custom.css"]
+noindex = false
 
-# Appearance settings
-theme = 'auto'
-colorPalette = 'default'
-hideHeader = false
+[params.theme]
+palette = "tender"
 
-# Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
-homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
-"""
+# Sidebar: about/bio
+[params.about]
+description = "Distributed Systems Researcher"
+title = "Ayush Pandey"
+# unicode/emoji logo:
+# logo = "🍚"
+# or use an image:
+#logo_image = "images/rice.svg"
 
-# Collection to display on home
-homeCollectionTitle = 'Posts'
-homeCollection = 'posts'
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
-# Lists parameters
-paginationSize = 100
-listSummaries = true
-listDateFormat = '2 Jan 2006'
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:example@example.com"
 
-# Breadcrumbs
-[params.breadcrumbs]
-enabled = true
-showCurrentPage = true
-home = "Home"
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/deadlockcharlie"
 
-# Social icons
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/deadlockcharlie/"
 
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+[[params.socialLinks]]
+icon = "ai ai-orcid"
+title = "ORCID"
+url = "https://orcid.org/0000-0001-8011-5411"
 
-[[params.social]]
-name = "github"
-url = "https://github.com/user"
+[menu]
 
-# Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
+# [[menu.main]]
+# identifier = "about"
+# name = "About"
+# url = "/about/"
+# weight = 10
 
-[[params.menu]]
-name = "posts"
-url = "/posts"
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
 
-[[params.menu]]
-name = "about"
-url = "/about"
-
-# Syntax highlight on code blocks
+# For hugo >= 0.60.0, enable inline HTML
 [markup]
-[markup.highlight]
-style = 'algol'
-
-# Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
-
+[markup.goldmark]
+[markup.goldmark.extensions]
+attributes = true
+[markup.goldmark.renderer]
+unsafe = true
+# Table of contents
+# Add toc = true to content front matter to enable
+# [markup.tableOfContents]
+# endLevel = 3
+# ordered = true
+# startLevel = 2

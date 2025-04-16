@@ -6,4 +6,6 @@ paperurl: 'https://hal.sorbonne-universite.fr/hal-04989563'
 citation: ' Ayush Pandey,  Julien Sopena,  Marc Shapiro,  Swan Dubois, &quot;CALock: Multi-granularity locking in dynamic hierarchies.&quot; IPDPS 2025 - 39th IEEE International Parallel and Distributed Processing Symposium, 2025.'
 ---
 
-[Access paper here](https://hal.sorbonne-universite.fr/hal-04989563){:target="_blank"}
+
+
+[Access paper here](https://hal.sorbonne-universite.fr/hal-04989563)

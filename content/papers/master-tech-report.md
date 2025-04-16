@@ -1,11 +1,15 @@
-+++
-title= "Persisting the AntidoteDB Cache: Design and Implementation of a Cache for a CRDT Datastore"
-excerpt= 'This report presents the design and implementation of a caching, indexing and object checkpoint library for AntidoteDB. '
-date= 2022-01-28
-venue= 'HAL-Inria'
-paperurl= 'https://hal.inria.fr/hal-03654003/document'
-citation= 'Ayush Pandey, Annette Bieniusa, Marc Shapiro. Persisting the AntidoteDB Cache: Design and Implementation of a Cache for a CRDT Datastore. [Research Report] RR-9470, TU Kaiserslautern; LIP6, Sorbonne Université. 2022.'
-+++
+---
+title: "Persisting the AntidoteDB Cache: Design and Implementation of a Cache for a CRDT Datastore"
+excerpt: 'This report presents the design and implementation of a caching, indexing and object checkpoint library for AntidoteDB. '
+date: 2022-01-28
+venue: 'HAL-Inria'
+paperurl: 'https://hal.inria.fr/hal-03654003/document'
+citation: 'Ayush Pandey, Annette Bieniusa, Marc Shapiro. Persisting the AntidoteDB Cache: Design and Implementation of a Cache for a CRDT Datastore. [Research Report] RR-9470, TU Kaiserslautern; LIP6, Sorbonne Université. 2022.'
+---
+
+Summary
+---
+
 Many services, today, rely on Geo-replicated databases. Geo-replication
 improves performance by moving a copy of the data closer to its usage site. High availability
 is achieved by maintaining copies of this data in several locations. Performance is gained by
@@ -18,4 +22,4 @@ persisted into a checkpoint store and measure the performance of our design with
 benchmarks. The implementation of the system is based on AntidoteDB. An additional
 library is implemented to realise the discussed design
 
-[Download paper here](https://hal.inria.fr/hal-03654003v2)
+[Access Report Here](https://hal.inria.fr/hal-03654003v2)

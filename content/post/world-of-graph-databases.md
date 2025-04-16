@@ -3,7 +3,6 @@ title= 'The World of Graph Databases from An Industry Perspective'
 date= 2023-04-16
 tags = ["graph databases", "graph query languages", "graph database products"]  
 author = "Ayush Pandey"
-description = "The World of Graph Databases from An Industry Perspective"
 categories = ["Graph Databases", "Graph Query Languages", "Graph Database Products"]
 +++
 <!--more-->

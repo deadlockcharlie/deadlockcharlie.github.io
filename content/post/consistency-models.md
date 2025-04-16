@@ -1,7 +1,6 @@
 +++
 title =  "Consistency models and their interplay"
 date = 2025-04-04
-description = "A short article comparing the different consistency models as defined in the literature"
 tags = ["distributed systems", "consistency models", "databases"]
 author = "Ayush Pandey"
 +++
@@ -17,9 +16,9 @@ The content here is mostly based on the definitions from the following sources.
   
 
 
-![Consistency models](/images/consistency-models.svg)
-{.centered-img}
- <!-- {{< figure src="/images/consistency-models.svg" title="Consistency models, weakest to strongest (source: Jepsen.io)" width="40%" align="center" style="text-align: center, filter:invert(1)">}}  -->
+<!-- ![Consistency models](/images/consistency-models.svg)
+{.centered-img} -->
+ {{< figure src="/images/consistency-models.svg" title="Consistency models, weakest to strongest (source: Jepsen.io)" class="centered-img" >}} 
 
 
 Fundamentally, a consistency level is a set of predicates, evaluated over a history. The evaluation result of the predicates dictates if the history adheres to that consistency level i.e. that history is "legal" or "valid".

@@ -18,7 +18,7 @@ customCSS = ["css/custom.css"]
 noindex = false
 
 [params.theme]
-palette = "tender"
+palette = "chalk"
 
 # Sidebar: about/bio
 [params.about]

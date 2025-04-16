@@ -18,7 +18,7 @@ customCSS = ["css/custom.css"]
 noindex = false
 
 [params.theme]
-palette = "chalk"
+palette = "dracula"
 
 # Sidebar: about/bio
 [params.about]

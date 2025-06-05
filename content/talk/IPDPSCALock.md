@@ -6,7 +6,7 @@ location= "Milan, Italy"
 +++
 
 
-This talk was given at the 39th International Parallel and Distributed Processing Symposium.  (https://ssl.linklings.net/conferences/ipdps/ipdps2025_program/views/at_a_glance.html). 
+This talk was given at the 39th International Parallel and Distributed Processing Symposium.  ( https://ssl.linklings.net/conferences/ipdps/ipdps2025_program/views/at_a_glance.html ). 
 
 ## Abstract
 

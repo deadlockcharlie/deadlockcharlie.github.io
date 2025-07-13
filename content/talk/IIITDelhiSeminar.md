@@ -19,4 +19,4 @@ sequential-access journal. We show that both conform to the valuation, meaning t
 (i) safe, (ii) functionally equivalent, and (iii) causally consistent. Finally, we introduce a new timestamp
 inversion anomaly, and provide a sufficient condition to avoid it.
 
-[slides PDF](talk/slides/IIITDelhiSeminar.pdf)
+[slides PDF](/talk/slides/IIITDelhiSeminar.pdf)

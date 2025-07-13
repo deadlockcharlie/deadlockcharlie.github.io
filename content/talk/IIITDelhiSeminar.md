@@ -5,7 +5,7 @@ date= 2025-07-11
 location= "Online"
 +++
 
-This talk was given as a presentation for a Seminar at [IIIT Delhi](https://2023.compas-conference.fr/). 
+This talk was given as a presentation for a Seminar at [IIIT Delhi](https://www.iiitd.ac.in). 
 
 ## Abstract
 
